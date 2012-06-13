@@ -1,0 +1,1 @@
+sqlcmd -S BRIVWTARC2 -D master -Q "alter database %1 set partner failover;"

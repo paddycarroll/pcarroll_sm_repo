@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\bin\Debug\dmcDbEnvironment.dll
+c:\users\administrator\documents\visual studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\bin\Debug\dmcDbEnvironment.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\obj\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\obj\Debug\dmcDbEnvironment.dll
+c:\users\administrator\documents\visual studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\obj\Debug\dmcDbEnvironment.pdb
