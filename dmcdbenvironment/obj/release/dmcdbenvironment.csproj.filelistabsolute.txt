@@ -1,3 +1,0 @@
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\bin\Release\dmcDbEnvironment.dll
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\obj\Release\ResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\dmcDbEnvironment\dmcDbEnvironment\obj\Release\dmcDbEnvironment.dll
