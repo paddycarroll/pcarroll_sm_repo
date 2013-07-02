@@ -1,0 +1,180 @@
+﻿Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe assembly.
+Committing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Rolling back assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service DMCFileCache...
+Service DMCFileCache has been successfully installed.
+Creating EventLog source DMCFileCache in log Application...
+Rolling back assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Restoring event log to previous state for source DMCFileCache.
+Service DMCFileCache is being removed from the system...
+Service DMCFileCache was successfully removed from the system.
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service DMCFileCache...
+Service DMCFileCache has been successfully installed.
+Creating EventLog source DMCFileCache in log Application...
+Rolling back assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Restoring event log to previous state for source DMCFileCache.
+Service DMCFileCache is being removed from the system...
+Service DMCFileCache was successfully removed from the system.
+Uninstalling assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Removing EventLog source DMCFileCache.
+Service DMCFileCache is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Removing EventLog source DMCFileCache.
+Warning: The source DMCFileCache is not registered on the local machine.
+Service DMCFileCache is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service DMCFileCache...
+Service DMCFileCache has been successfully installed.
+Creating EventLog source DMCFileCache in log Application...
+Committing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service DMCFileCache...
+Creating EventLog source DMCFileCache in log Application...
+Rolling back assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Restoring event log to previous state for source DMCFileCache.
+Installing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+Installing service DMCFileCache...
+Service DMCFileCache has been successfully installed.
+Creating EventLog source DMCFileCache in log Application...
+Committing assembly 'c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.InstallLog
+   assemblypath = c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe

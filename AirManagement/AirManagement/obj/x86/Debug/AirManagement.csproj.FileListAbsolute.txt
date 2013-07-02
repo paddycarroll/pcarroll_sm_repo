@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2010\Projects\AirManagement\AirManagement\obj\x86\Debug\AirManagement.AirManagement.resources
+c:\users\administrator\documents\visual studio 2010\Projects\AirManagement\AirManagement\obj\x86\Debug\AirManagement.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2010\Projects\AirManagement\AirManagement\bin\Debug\AirManagement.exe
+c:\users\administrator\documents\visual studio 2010\Projects\AirManagement\AirManagement\bin\Debug\AirManagement.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\AirManagement\AirManagement\obj\x86\Debug\AirManagement.exe
+c:\users\administrator\documents\visual studio 2010\Projects\AirManagement\AirManagement\obj\x86\Debug\AirManagement.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\AirManagement\AirManagement\obj\x86\Debug\AirManagement.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\AirManagement\AirManagement\obj\x86\Debug\AirManagement.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\AirManagement\AirManagement\obj\x86\Debug\AirManagement.AEControl.resources

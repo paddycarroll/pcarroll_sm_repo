@@ -1,0 +1,7 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\DMCSystemsManagement.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\DMCSystemsManagement.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb

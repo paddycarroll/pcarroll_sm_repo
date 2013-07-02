@@ -2,11 +2,13 @@
 # File backup and housekeep script
 # backups made at midnight UTC get > n days old get moved to Daily 
 # All backups more than n days old get deleted
-# version 0.3
+# version 0.4 10:34 04/12/2012
 # 
 # version 0.1 initial 08/06/2012
 # version 0.2 10/06/2012 include logging & bugfixes
 # version 0.3 move creation of event source to separate script
+# version 0.4 fixed move bug
+
 # check for arguments
 
 if($args.count -lt 1)
@@ -57,19 +59,19 @@ try{
          if ($file.creationTimeUTC.Hour -eq 0 -and $file.name -match ".*db\.bak")
          {
 # back up to daily
-	    $evt.WriteEntry("moving backup " + $file.name + " to " + $path_day,$infoevent,3) 
+	    $evt.WriteEntry("moving backup " + $file.FullName + " to " + $path_day,$infoevent,3) 
             mv $file.FullName $path_day
          }
          else   
          {
 # else trash it
 	   $evt.WriteEntry("Deleting " + $file.name + " from " + $path_hour,$infoevent,4)
-            rm $file.FullName
+            $file.Delete()
          }
       }
    }catch{
 	$type = $_.Exception.getType().FullName
-	$detail = $_.Exception.ErrorDetails().toString()
+	$detail = $_.Exception.toString()
 	$evt.WriteEntry("Archive housekeeping has had a problem moving or deleting data backups:"+$type+":"+$detail,$errevent,1)
    }
 }

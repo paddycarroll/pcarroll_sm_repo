@@ -1,0 +1,7 @@
+To Start a Playout Engine
+
+$play1 = start-process -FilePath "C:\Program Files (x86)\Cinegy\Cinegy Air Engine 9.5.0\PlayOutExApp.exe" -ArgumentList @("/N:0", "/NonInteractive") -passthru
+
+To Stop the same Engine
+
+$play1.Kill()

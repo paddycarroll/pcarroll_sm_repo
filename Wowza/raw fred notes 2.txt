@@ -1,0 +1,85 @@
+encryption for flash
+Wowza flash is based on tomcat key
+change url on webserver
+licensing for wowza, monthly fee based on Anders Credit card
+licensing for imanegine tbd.
+
+hls streamhas another requirements
+
+[21/01/2013 15:50:56] Fredrik Nilsson: root@brivltwow1:/var/www/js# grep rtmp  app.js 
+            provider: "rtmp",
+            streamer: "rtmp://streams.deluxemediacloud.com:1935/live/?sessionid=" + document.user.sessionid,
+root@brivltwow1:/var/www/js#
+[21/01/2013 15:51:27] Fredrik Nilsson: root@bydeluxe:/var/www/js# grep rtmp app.js 
+            provider: "rtmp",
+            streamer: "rtmps://streaming.polylegio.se:443/deluxe/?sessionid=" + document.user.sessionid,
+root@bydeluxe:/var/www/js#
+
+
+/usr/local/WowzaMediaServer/bin
+genkeys.sh
+
+url must be https url otherwise silent failure
+
+
+[21/01/2013 15:50:56] Fredrik Nilsson: root@brivltwow1:/var/www/js# grep rtmp  app.js 
+            provider: "rtmp",
+            streamer: "rtmp://streams.deluxemediacloud.com:1935/live/?sessionid=" + document.user.sessionid,
+root@brivltwow1:/var/www/js#
+[21/01/2013 15:51:27] Fredrik Nilsson: root@bydeluxe:/var/www/js# grep rtmp app.js 
+            provider: "rtmp",
+            streamer: "rtmps://streaming.polylegio.se:443/deluxe/?sessionid=" + document.user.sessionid,
+root@bydeluxe:/var/www/js#
+[21/01/2013 15:52:27] Fredrik Nilsson: root@veritas_wowza:/usr/local/WowzaMediaServer/keys# cat 240p_2.stream.key 
+cupertinostreaming-aes128-key: 0887AFA000D42DD9CC17E64CD8307CF6
+cupertinostreaming-aes128-url: https://www.polylegio.se/mpegtsstream240_2.php
+root@veritas_wowza:/usr/local/WowzaMediaServer/keys#
+[21/01/2013 15:54:14] Fredrik Nilsson: 
+
+root@www:/var/www# cat mpegtsstream240_2.php 
+<?php
+
+function hex2bin($h)
+{
+        if (!is_string($h))
+                return null;
+        $r = '';
+        for ($a=0;$a<strlen($h);$a+=2)
+        {
+                $r .= chr(hexdec($h{$a}.$h{($a+1)}));
+        }
+        return $r;
+}
+$isValid=false;
+if($_SERVER['HTTPS']){
+ $isValid = true;
+}
+
+
+if (! $isValid)
+{
+    header('HTTP/1.0 403 Forbidden');
+}
+else
+{{
+    header('Content-Type: binary/octet-stream');
+    header('Pragma: no-cache');
+
+
+    echo hex2bin('0887AFA000D42DD9CC17E64CD8307CF6');
+
+    exit(); // this is needed to ensure cr/lf is not added to output
+}
+
+?>
+
+
+html5
+
+theora
+h264
+webm
+
+samsung galaxy 3 android, you cannot change the stream
+
+

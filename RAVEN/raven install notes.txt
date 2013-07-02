@@ -1,0 +1,66 @@
+raven install notes
+
+unzip raven install to desired directory
+C:\Deluxe\RavenDBv1 where 1 is the major raven version number
+
+Create a Data Directory
+e.g.
+
+E:\Data\RavenDBv1
+
+Assign Read/Write and modify to both the installation and data directories to (domain)\ravendb98
+
+Edit the raven.server.exe.config file
+port = 8080 -- or another value if you are running multiple services
+the key is:
+Raven/Port
+
+Ensure the pysical storage locations are correct
+Raven/IndexStoragePath : E:/Data/RavenDBv1/Indexes
+Raven/DataDir : E:/Data/RavenDBv1
+Raven/Esent/LogsPath : E:/Data/RavenDBv1/Logs
+
+allow ravenuser98 access to the the raven url port
+netsh http add urlacl url=http://+:8080/ user=global\ravendb98
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************all redundant below**************************
+
+C:\Windows\system32>setspn -S ravendb/brivwrav01:8080 global\ravendb98
+Checking domain DC=global,DC=deluxemediacloud,DC=com
+
+Registering ServicePrincipalNames for CN=RavenDB User,OU=Service,OU=Internal Users,OU=UK,OU=Europe,DC=global,DC=deluxemediacloud,DC=com
+        ravendb/brivwrav01:8080
+Updated object
+
+C:\Windows\system32>setspn -S ravendb/brivwrav02:8080 global\ravendb98
+Checking domain DC=global,DC=deluxemediacloud,DC=com
+
+Registering ServicePrincipalNames for CN=RavenDB User,OU=Service,OU=Internal Users,OU=UK,OU=Europe,DC=global,DC=deluxemediacloud,DC=com
+        ravendb/brivwrav02:8080
+Updated object
+
+C:\Windows\system32>setspn -S ravendb/brivwrav03:8080 global\ravendb98
+Checking domain DC=global,DC=deluxemediacloud,DC=com
+
+Registering ServicePrincipalNames for CN=RavenDB User,OU=Service,OU=Internal Users,OU=UK,OU=Europe,DC=global,DC=deluxemediacloud,DC=com
+        ravendb/brivwrav03:8080
+Updated object
+
+C:\Windows\system32>setspn -L global\ravendb98
+Registered ServicePrincipalNames for CN=RavenDB User,OU=Service,OU=Internal Users,OU=UK,OU=Europe,DC=global,DC=deluxemediacloud,DC=com:
+        ravendb/brivwrav03:8080
+        ravendb/brivwrav02:8080
+        ravendb/brivwrav01:8080

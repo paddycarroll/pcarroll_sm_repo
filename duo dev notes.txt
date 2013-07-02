@@ -1,0 +1,4 @@
+Duo Dev Notes
+Download dotnet sdk
+place in vis studio projects directory
+make new ASP.NET Visual c# web site

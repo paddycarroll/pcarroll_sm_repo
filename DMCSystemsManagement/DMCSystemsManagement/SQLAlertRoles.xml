@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DMCSystemsManagement>
+  <SqlResilienceState>
+    <Servers>
+      <Server id="RAV1" role="Primary"/>
+      <Server id="RAV2" role="Secondary"/>
+      <Server id="DC1" role="Witness"/>
+    </Servers>
+  </SqlResilienceState>
+  <RavenResilienceState>
+  </RavenResilienceState>
+</DMCSystemsManagement>

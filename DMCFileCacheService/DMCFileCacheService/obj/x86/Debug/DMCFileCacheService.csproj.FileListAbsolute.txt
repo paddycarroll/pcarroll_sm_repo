@@ -1,0 +1,8 @@
+c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.exe
+c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\bin\Debug\DMCFileCacheService.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\obj\x86\Debug\DMCFileCacheService.ProjectInstaller.resources
+c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\obj\x86\Debug\DMCFileCacheService.DMCFileCacheService.resources
+c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\obj\x86\Debug\DMCFileCacheService.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\obj\x86\Debug\DMCFileCacheService.exe
+c:\users\administrator\documents\visual studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\obj\x86\Debug\DMCFileCacheService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DMCFileCacheService\DMCFileCacheService\obj\x86\Debug\DMCFileCacheService.csprojResolveAssemblyReference.cache

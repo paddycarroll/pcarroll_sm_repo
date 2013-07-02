@@ -1,0 +1,77 @@
+Monday 22-Oct-2012
+
+
+PC To control Test Process
+Inconsistent Storage (Various Differing Disk Sizes)
+
+Additional Resources Required (Team)
+Additional resource (Tin)
+
+Meet JS/AT/BH
+
+Prove AIR
+Evaluate MV
+
+JS
+
+
+Qualify Machine Resource requirements
+
+One Channel per box on 9.5 -> Network
+
+CPU -> 35%
+GPU -> 35% ( Logo On Off, Type )
+Two Channels 
+CPU -> 70%
+GPU -> 75% ( Logo On Off, Type )
+
+****************
+Qualify Results
+****************
+Identify Metrics 
+Testing templates
+***********************************
+Media Sets for testing
+
+Movie 2 are meant to be supplying Clarity Conversions
+By End of week
+New H/W inc tesla card by
+Wed.
+
+Resource availability in VM Estate & Phy Estate as a whole
+AT talk to SP
+
+Extra Air in Production rebuilt with 9.5
+New Air in PUB rebuild to 9.5
+New Air in Stage (Depending on JS Conversation with ABC)
+
+
+Change Control back in fashion CRs now mandatory
+Timetable for code arrival :: --> LST Rig Creation
+
+Game Station as Diagnostic Workstation
+(Replace Graphics Card if it can be demostrated that it is defective)
+
+AIR2 to rebuild 
+Mem 24 Gig
+Drive 1 TB Gross Raid 10 
+Quadra Graphics.
+
+
+Design Review
+Capcity and performance
+
+
+Annette
+Lewis/Alec
+
+Course Details for Germany 1st week November
+
+Lewis to provide training Chris/Annette Brian
+
+Professional Tester......
+
+
+Metrics - Raritan
+
+

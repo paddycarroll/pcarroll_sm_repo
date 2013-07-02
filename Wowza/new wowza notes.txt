@@ -1,0 +1,123 @@
+fred wowza
+
+*************
+encryption for flash
+*************
+
+Wowza flash is based on tomcat key
+
+if we change our name
+
+change url on webserver
+
+
+*************
+Licensing
+*************
+
+licensing for wowza, monthly fee based on Anders Credit card
+licensing for imanegine tbd.
+
+****************
+hls streams
+****************
+in
+/var/www/js/app.js
+
+look for rtmp
+change url to rtmps
+
+
+use
+/usr/local/WowzaMediaServer/bin/genkeys.sh
+to create keys in
+/usr/local/WowzaMediaServer/keys
+
+step by step
+
+from /usr/local/WowzaMediaServer/bin
+./genkey iOS 240p_Multiview02.stream https://streams.deluxemediacloud.com:444/240p_Multiview02.stream.php
+
+this generates
+
+240p_Multiview02.stream.key
+
+which should be copied to
+
+/usr/local/WowzaMediaServer/keys
+
+next we need to extract the key from 240p_Multiview02.stream.key
+
+cat 240p_Multiview02.stream.key
+
+ 
+cupertinostreaming-aes128-key: 0887AFA000D42DD9CC17E64CD8307CF6
+cupertinostreaming-aes128-url: https://www.polylegio.se/mpegtsstream240_2.php
+root@veritas_wowza:/usr/local/WowzaMediaServer/keys#
+
+Change the URL in the stream!
+
+url but be https otherwise silent failure.
+
+in /var/www
+
+
+Key generation
+
+*************
+make the cert
+*************
+start with a CSR that we make using openssl
+
+openssl req -new -newkey rsa:2048 -nodes -keyout star_deluxemediacloud_com.key -out star_deluxemediacloud_com.csr
+
+Answer the questions, the really important one being "Common Name" to which you should reply *.deluxemediacloud.com
+Move the resulting star_deluxemediacloud_com.key to a safe location, it's your private key and could be used to compromise the organsiation
+
+the file star_deluxemediacloud_com.csr is plain text and is a certificate request, mail it ( or just paste the contents into a mail) to the organisation or individual who will get you your cert
+
+
+*******
+apache2
+*******
+
+make the apache pem file
+
+in /etc/apache2/sites-available
+
+make a copy of 
+/etc/apache2/sites-available/default-ssl called mediacloud-ssl
+
+cp /etc/apache2/sites-available/default-ssl /etc/apache2/sites-available/mediacloud-ssl 
+
+edit mediacloud-ssl to ensure the following lines are present and point to the new certs (replace existing lines ) 
+
+SSLCertificateFile    /etc/ssl/certs/star_deluxemediacloud_com.pem
+SSLCertificateKeyFile /etc/ssl/private/star_deluxemediacloud_com.key
+
+
+
+
+
+make the key file
+
+
+****************
+WowzaMediaServer
+****************
+keytool -importcert -keystore deluxemediacloud.cert -file star_deluxemediacloud_com.crt -alias deluxemediacloud
+it will ask for a password
+
+we use M3d!aCl0ud! in this example
+
+copy deluxemediacloud.cert to /usr/local/WowzaMediaServer/conf
+
+edit /usr/local/WowzaMediaServer/conf/VHost.xml
+
+find the SSLConfig section and edit as shown below
+<SSLConfig>
+         <KeyStorePath>${com.wowza.wms.context.VHostConfigHome}/conf/star_deluxemediacloud_com.cert</KeyStorePath>
+         <KeyStorePassword>M3d!aCl0ud!</KeyStorePassword>
+         ...
+</SSLConfig>
+

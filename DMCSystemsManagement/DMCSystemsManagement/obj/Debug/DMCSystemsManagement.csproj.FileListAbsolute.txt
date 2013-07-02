@@ -1,0 +1,4 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DMCSystemsManagement\DMCSystemsManagement\bin\Debug\DMCSystemsManagement.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\DMCSystemsManagement\DMCSystemsManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\DMCSystemsManagement\DMCSystemsManagement\obj\Debug\DMCSystemsManagement.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\DMCSystemsManagement\DMCSystemsManagement\obj\Debug\DMCSystemsManagement.pdb

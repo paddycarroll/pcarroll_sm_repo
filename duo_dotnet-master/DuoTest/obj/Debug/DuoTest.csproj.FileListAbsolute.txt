@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\duo_dotnet-master\DuoTest\bin\Debug\DuoTest.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\duo_dotnet-master\DuoTest\bin\Debug\DuoTest.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\duo_dotnet-master\DuoTest\bin\Debug\DuoWeb.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\duo_dotnet-master\DuoTest\bin\Debug\DuoWeb.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\duo_dotnet-master\DuoTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\duo_dotnet-master\DuoTest\obj\Debug\DuoTest.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\duo_dotnet-master\DuoTest\obj\Debug\DuoTest.pdb
